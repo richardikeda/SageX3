@@ -1,5 +1,4 @@
 #<AdxTL>@(#)0.0.0.0 $Revision$
-#<AdxTL>@(#)0.0.0.0 $Revision$
 #**
 #* Here is a initial sample sage X3
 #* Just to validate some functions and basic commands of Sage X3.
@@ -49,4 +48,12 @@
   Endcase
 
 
-End
+# ---------------------------------------------------------------
+# Dialog box
+
+Local Dlgbox Mask ZMOTSA00 [ZM00]
+& Button "Button A", "Button B", "Button C", "END"
+& With "A","B","C","F"
+& Coded 1901,1902,1903,1904
+& Titled "Box title"
+& As [BOI1]
