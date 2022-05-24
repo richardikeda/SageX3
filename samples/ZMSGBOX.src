@@ -9,7 +9,10 @@
 # ---------------------------------------------------------------
 # Information box
   Infbox "Information message"
-
+  Infbox MESSAGE_LIST
+  Infbox MESSAGE_LIST Titled TITLE
+  Infbox MESSAGE_LIST Titled TITLE Sleep time
+  Infbox MESSAGE_LIST Sleep time
 # ---------------------------------------------------------------
 # Warning box
   Wrnbox "This is sample","Warning box with time"
@@ -18,6 +21,7 @@
 # ---------------------------------------------------------------
 # Error box
   Errbox "Error message"
+
 
 # ---------------------------------------------------------------
 # Fatal error box with time
@@ -47,16 +51,6 @@
     When Default  : Infbox "I KNEW IT"
   Endcase
 
-
-# ---------------------------------------------------------------
-# Dialog box
-
-Local Dlgbox Mask ZMOTSA00 [ZM00]
-& Button "Button A", "Button B", "Button C", "END"
-& With "A","B","C","F"
-& Coded 1901,1902,1903,1904
-& Titled "Box title"
-& As [BOI1]
 
 
 
